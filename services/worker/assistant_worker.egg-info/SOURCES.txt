@@ -1,0 +1,9 @@
+pyproject.toml
+assistant_worker.egg-info/PKG-INFO
+assistant_worker.egg-info/SOURCES.txt
+assistant_worker.egg-info/dependency_links.txt
+assistant_worker.egg-info/requires.txt
+assistant_worker.egg-info/top_level.txt
+tests/test_healthcheck.py
+worker_app/__init__.py
+worker_app/celery_app.py
