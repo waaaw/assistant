@@ -2,11 +2,10 @@
 name = "assistant-worker"
 version = "0.1.0"
 requires-python = ">=3.12"
-dependencies = ["celery[redis]>=5.4,<6"]
+dependencies = ["celery[redis]>=5.4,<6", "pydantic>=2.9,<3"]
 
 [project.optional-dependencies]
 test = ["pytest>=8.3,<9"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-
