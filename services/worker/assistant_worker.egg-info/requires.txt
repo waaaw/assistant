@@ -1,4 +1,0 @@
-celery[redis]<6,>=5.4
-
-[test]
-pytest<9,>=8.3
